@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'finalFantasy'; /*a name to be used later*/
+    src: url("../../fuente/finalf.ttf"); /*URL to font*/
+}
+#logoFinalfantasy{ 
+    margin-left: 22%;
+    width: 50%;
+  }
+ 
+#menu{ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    border: silver 1px solid;
+    border-image-source: url("../../img/índice.png");
+    border-image-slice: 30;
+    border-image-width: 100px;
+    padding: 10px;
+    text-align: justify;  
+    background: rgba(0,77,255,1);
+    background: -moz-linear-gradient(top, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004dff', endColorstr='#1027ad', GradientType=0 ); 
+    margin: 70px;
+}
+
+#menuCuadrado{ 
+    padding: 10px;
+    margin: 20px;
+    font-size: 40px;
+    font-family: "Orbitron";
+}
+#menuCuadrado:hover{
+    cursor: pointer;
+    transform: scale(1.2); 
+}
+#menuCuadrado:active{ 
+    transform: scale(1); 
+}
