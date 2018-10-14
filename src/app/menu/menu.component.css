@@ -1,0 +1,51 @@
+
+#logoFinalfantasy{ 
+    margin-left: 22%;
+    width: 50%;
+  }
+ 
+  #escapula{    
+ 
+    background-image: url("../../../img/1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 40%;
+  }
+#menu{ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    border: silver 1px solid;
+    border-image-source: url("../../../img/índice.png");
+    border-image-slice: 30;
+    border-image-width: 100px;
+    padding: 10px;
+    background: rgba(0,77,255,1);
+    background: -moz-linear-gradient(top, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004dff', endColorstr='#1027ad', GradientType=0 ); 
+    margin-left: 70px;
+    margin-right: 70px;
+   
+    text-align: justify;  
+  
+}
+
+#menuCuadrado{ 
+    padding: 10px;
+    margin: 20px;
+    font-size: 40px;
+    font-family: "Orbitron";
+}
+#menuCuadrado:hover{
+    cursor: pointer;
+    transform: scale(1.2); 
+}
+#menuCuadrado:active{ 
+    transform: scale(1); 
+}
+
+ 

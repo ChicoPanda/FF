@@ -1,20 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.css']
 })
-
-
-export class AppComponent implements OnInit {
+export class MenuComponent implements OnInit {
   click: any = new Audio();
   musica: any = new Audio();
   ok: any = new Audio();
   
   ngOnInit() {
 
-    //this.musica.src = "../../sonidos/musicaInicio.mp3";
+    this.musica.src = "../../sonidos/musicaInicio.mp3";
     this.musica.currentTime = 2;
     this.musica.volume = 0.5;
     this.musica.play()
@@ -33,5 +31,4 @@ export class AppComponent implements OnInit {
     this.ok.play();
     
   }
-
 }

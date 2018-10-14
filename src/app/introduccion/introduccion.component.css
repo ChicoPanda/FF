@@ -1,0 +1,52 @@
+div{
+  font-family: "Orbitron";
+ }
+  body{    
+    color: white;
+    background-image: url("../../../img/1.jpg"); 
+     padding:30px;
+    background-size: auto auto;
+    background-position: 40%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  #entorno{
+    display: flex;
+     flex-wrap: nowrap;
+  }
+  #kupo{
+    padding-right: 20px;
+    padding-top: 32px;
+    height: 550px;
+    transform: scale(1.2)
+  }
+  #ambientacion{
+    margin-top:29px;
+   margin-left: 10%;
+   margin-right: 10%;
+    border: silver 1px solid;
+    border-image-source: url("../../../img/índice.png");
+    border-image-slice: 30;
+    border-image-width: 100px;
+    padding: 23px; 
+    background: linear-gradient(to bottom, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+  }
+  #videos{
+    display:flex;
+    flex-wrap: wrap;
+     justify-content: space-between
+  }
+  iframe{padding-bottom: 20px;}
+  #menu{
+    border: silver 1px solid;
+    border-image-source: url("../../../img/índice.png");
+    border-image-slice: 30;
+    border-image-width: 100px;
+    padding: 23px;
+     
+    background: linear-gradient(to bottom, rgba(0,77,255,1) 0%, rgba(16,39,173,1) 100%);
+     
+  }
